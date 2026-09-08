@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shporta | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page cart-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a id="adminLink" href="./admin.html">Admin</a>
+          <a id="authLink" href="./login.html">Krijues t� ReArt</a>
+          <a class="active" href="./cart.html">Shporta (<span id="cartCount">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section cart-page-layout">
+      <section class="project-side cart-hero">
+        <h1 class="project-title">Shporta</h1>
+      </section>
+
+      <section class="cart-shell">
+        <div class="cart-head">
+          <h2>Produktet ne Shporte</h2>
+          <div class="cart-head-actions">
+            <a class="btn secondary" href="/browse">Vazhdo blerjet</a>
+            <button id="clearCartBtn" class="btn secondary" type="button">Hiq te gjitha</button>
+          </div>
+        </div>
+
+        <div class="cart-layout">
+          <section class="panel cart-items-panel">
+            <div id="cartItems" class="cart-items-list"></div>
+          </section>
+
+          <aside class="panel cart-summary-panel">
+            <h3>Permbledhje</h3>
+            <div class="cart-summary-list">
+              <p><span>Artikuj</span><strong id="cartItemsCount">0</strong></p>
+              <p><span>Subtotal</span><strong id="cartSubtotal">Lek 0 ALL</strong></p>
+              <p><span>Transporti</span><strong id="cartShipping">Lek 0 ALL</strong></p>
+              <p class="cart-total-row"><span>Totali</span><strong id="cartTotal">Lek 0 ALL</strong></p>
+            </div>
+
+            <form id="checkoutForm" class="form-grid cart-checkout-form">
+              <input name="fullName" placeholder="Emri i plote" required />
+              <input name="line1" placeholder="Adresa" required />
+              <input name="city" placeholder="Qyteti" required />
+              <button id="checkoutBtn" class="btn" type="submit">Perfundo porosine</button>
+            </form>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/cart.js"></script>
+  </body>
+</html>

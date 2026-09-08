@@ -1,0 +1,107 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page home-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a class="active" href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a id="adminLink" href="./admin.html">Admin</a>
+          <a id="authLink" href="./login.html">Krijues të ReArt</a>
+          <a href="./cart.html">Shporta (<span id="cartCount">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section project-structure home-single-column">
+      <aside class="project-side">
+        <h1 class="project-title">ReArt</h1>
+        <p class="project-text">Çdo produkt meriton një fillim të ri. Zgjidh atë që të duhet dhe shndërroje blerjen tënde në një dhuratë për planetin.</p>
+
+        <form id="heroSearchForm" class="search-row">
+          <input id="heroSearchInput" type="search" placeholder="Kerko produkte, materiale, kategori..." style="flex:1;" />
+          <button class="btn" type="submit">Kerko</button>
+        </form>
+      </aside>
+
+      <section class="project-main">
+        <div class="grid-2 section">
+          <a class="category-card second-hand" href="./browse.html?category=second-hand#second-hand">
+            <h3>Produkte second-hand</h3>
+            <p>Artikuj të përzgjedhur që ruajnë cilësinë origjinale me një çmim më ekonomik.</p>
+          </a>
+          <a class="category-card upcycled" href="./browse.html?category=upcycled#upcycled">
+            <h3>Produkte te Ricikluara</h3>
+            <p>Materiale të transformuara me dorë në produkte të reja, unike dhe ekologjike.</p>
+          </a>
+        </div>
+
+        <div class="section-title">
+          <h2>Produkte te Rekomanduara</h2>
+          <a href="./browse.html" class="muted">Shiko te gjitha</a>
+        </div>
+        <div id="featuredProducts" class="cards"></div>
+
+        <div class="section-title section-title-makers">
+          <h2>Artizane te Rekomanduar</h2>
+          <a href="./browse.html" class="muted">Shiko te gjitha</a>
+        </div>
+        <div id="featuredMakers" class="cards makers-cards"></div>
+
+        <section class="join-world-section">
+          <div class="join-world-card">
+            <h2>Dua të jem pjesë e ReArt</h2>
+            <p>
+              Ju lutem me perfshini si anetar te ReArt dhe<br />
+              me mbani te perditesuar me progresin tuaj.
+            </p>
+            <form class="join-world-form">
+              <input type="text" placeholder="Emri" />
+              <input type="text" placeholder="Mbiemri" />
+              <input type="email" placeholder="Email" />
+              <button type="button">Regjistrohu</button>
+            </form>
+            <small>
+              Duke u regjistruar, ju pranoni te merrni email njoftues. Shikoni politiken e privatesise
+              dhe kushtet e sherbimit per me shume informacion.
+            </small>
+          </div>
+        </section>
+
+        <section class="mission-strip">
+          <h3>Misioni ynë</h3>
+          <p>
+            Të rikrijojmë, të ripërdorim dhe të ruajmë botën përmes artit dhe kreativitetit.
+          </p>
+        </section>
+      </section>
+    </main>
+
+    <footer class="container footer">
+      Re-Art | Circular economy first | Sustainable commerce.
+    </footer>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/home.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+

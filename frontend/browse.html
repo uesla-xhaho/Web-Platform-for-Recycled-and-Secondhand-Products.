@@ -1,0 +1,138 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <title>Produkte | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page browse-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a class="active" href="./browse.html">Produkte</a>
+          <a id="adminLink" href="./admin.html">Admin</a>
+          <a id="authLink" href="./login.html">Krijues të ReArt</a>
+          <a href="./cart.html">Shporta (<span id="cartCount">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section project-structure project-structure-wide">
+      <div class="browse-left-column">
+        <aside class="project-side browse-filters-panel">
+          <p class="project-text">Filtro koleksionin dhe gjej shpejt produkte te perdorura ose te ricikluara.</p>
+
+          <form id="filterForm" class="form-grid browse-filters">
+            <label>
+              Search
+              <input type="search" id="searchInput" name="search" placeholder="Titull, material..." />
+            </label>
+            <label>
+              Availability
+              <select name="availability">
+                <option value="">Te gjitha</option>
+                <option value="in-stock">Ne stok</option>
+                <option value="sold-out">I shitur</option>
+              </select>
+            </label>
+            <label>
+              Sort by
+              <select name="sort">
+                <option value="newest">Newest</option>
+                <option value="priceAsc">Price, low to high</option>
+                <option value="priceDesc">Price, high to low</option>
+                <option value="rating">Rating</option>
+                <option value="titleAsc">Alphabetically, A-Z</option>
+              </select>
+            </label>
+            <label>
+              Category
+              <select name="category">
+                <option value="">Te gjitha</option>
+                <option value="second-hand">Second-Hand</option>
+                <option value="upcycled">Upcycled</option>
+              </select>
+            </label>
+            <label>
+              Eco Impact
+              <select name="ecoImpact">
+                <option value="">Te gjitha</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+            </label>
+            <label>
+              Material
+              <input type="text" name="material" placeholder="Cotton" />
+            </label>
+            <label>
+              Condition
+              <select name="condition">
+                <option value="">Te gjitha</option>
+                <option value="new-like">New Like</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="worn">Worn</option>
+              </select>
+            </label>
+            <label>
+              Artisan Location
+              <input type="text" name="location" placeholder="Tirane" />
+            </label>
+            <label>
+              Min Price
+              <input type="number" name="minPrice" min="0" />
+            </label>
+            <label>
+              Max Price
+              <input type="number" name="maxPrice" min="0" />
+            </label>
+            <label>
+              Min Rating
+              <select name="rating">
+                <option value="">Any</option>
+                <option value="4">4+</option>
+                <option value="3">3+</option>
+                <option value="2">2+</option>
+              </select>
+            </label>
+          </form>
+        </aside>
+
+        <aside class="browse-eco-ad browse-eco-ad-outside" aria-label="Eco-Al reklame">
+          <div class="browse-eco-ad-inner">
+            <img src="./assets/images/logo.png" alt="Eco-Al logo" class="browse-eco-ad-logo" />
+            <h3>Jepi Vlerë Mbetjeve me Eco-Al!</h3>
+            <p>
+              Bashkohu me Eco-Al për një menaxhim inteligjent të mbetjeve të riciklueshme. Ne grumbullojmë plastikë,
+              letër dhe metal duke i shndërruar ato në lëndë të parë për të ardhmen. Na zgjidhni ne për të zbuluar
+              lëndën e parë të krijimeve tuaja unike. Aty ku riciklimi takon artin!
+            </p>
+          </div>
+        </aside>
+      </div>
+
+      <section class="project-main">
+        <div class="section-title">
+          <h2>Produktet</h2>
+          <p id="resultsMeta" class="muted">0 products</p>
+        </div>
+        <div id="browseProducts" class="showcase-groups"></div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/browse.js"></script>
+  </body>
+</html>

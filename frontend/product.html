@@ -1,0 +1,56 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Detaje Produkti | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a id="adminLink" href="./admin.html">Admin</a>
+          <a id="authLink" href="./login.html">Krijues të ReArt</a>
+          <a href="./cart.html">Shporta (<span id="cartCount">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <div id="productDetail" class="pdp-wrap">
+        <p class="muted">Duke ngarkuar...</p>
+      </div>
+
+      <section id="productReviewsSection" class="panel section pdp-reviews" hidden>
+        <h2>Vleresime nga Klientet</h2>
+        <div id="productReviewsList" class="pdp-reviews-list"></div>
+      </section>
+
+      <section class="pdp-related section">
+        <div class="section-title">
+          <h2>Produkte te tjera</h2>
+          <a href="./browse.html" class="muted">Shiko te gjitha</a>
+        </div>
+        <div id="relatedProducts" class="cards"></div>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/product.js"></script>
+  </body>
+</html>
+
+
+
+
+

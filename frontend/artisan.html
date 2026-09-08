@@ -1,0 +1,156 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artisan Dashboard | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page artisan-dashboard-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a id="adminLink" href="./admin.html">Admin</a>
+          <a id="authLink" href="./login.html">Krijues të ReArt</a>
+          <a href="./cart.html">Shporta (<span id="cartCount">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section">
+      <section class="project-main">
+        <p id="artisanWarning" class="muted"></p>
+        <section class="panel section artisan-profile-section">
+          <div class="artisan-profile-head">
+            <h3>Profili i Krijueses</h3>
+            <button id="artisanLogoutBtn" class="btn secondary" type="button">Dil</button>
+          </div>
+          <section id="artisanProfile" class="artisan-profile"></section>
+        </section>
+
+        <section id="artisanGallerySection" class="panel section artisan-gallery-section">
+          <h3 id="artisanGalleryTitle">Momente nga Krijimtaria</h3>
+          <section id="artisanGalleryGrid" class="artisan-gallery-grid"></section>
+        </section>
+
+        <section id="artisanSummary" class="kpi-grid"></section>
+        <section id="lowStockSection" class="panel section">
+          <h3>Produkte me stok te ulet</h3>
+          <ul id="lowStock"></ul>
+        </section>
+
+        <section id="createProductSection" class="panel section product-create-section">
+          <button
+            id="toggleNewProductForm"
+            class="btn"
+            type="button"
+            aria-expanded="false"
+            aria-controls="newProductFormWrap"
+          >
+            Shto Produkt te Ri
+          </button>
+
+          <div id="newProductFormWrap" class="product-form-shell" hidden>
+            <form id="newProductForm" class="form-grid" enctype="multipart/form-data">
+              <input name="title" placeholder="Titulli" required />
+              <textarea name="description" rows="3" placeholder="Pershkrimi" required></textarea>
+              <select name="category" required>
+                <option value="">Kategoria</option>
+                <option value="second-hand">Second-Hand</option>
+                <option value="upcycled">Upcycled</option>
+              </select>
+              <input name="subcategory" placeholder="Subcategory" required />
+              <input name="materials" placeholder="Materials (comma separated)" />
+              <select name="condition">
+                <option value="">Condition (for second-hand)</option>
+                <option value="new-like">New Like</option>
+                <option value="good">Good</option>
+                <option value="fair">Fair</option>
+                <option value="worn">Worn</option>
+              </select>
+              <select name="ecoImpact" required>
+                <option value="">Eco Impact</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+              <input type="number" name="price" min="0" step="0.01" placeholder="Price" required />
+              <input type="number" name="stock" min="0" placeholder="Stock" required />
+              <input name="shippingMethod" placeholder="Shipping method" />
+              <input type="number" name="shippingCost" min="0" step="0.01" placeholder="Shipping cost" />
+              <input type="number" name="shippingDays" min="1" placeholder="Shipping days" />
+              <input type="file" name="images" multiple accept="image/png,image/jpeg,image/webp" />
+              <button class="btn" type="submit">Shto Produkt</button>
+            </form>
+          </div>
+        </section>
+
+        <section id="productsSection" class="panel section">
+          <h3 id="productsSectionTitle">Produktet e Mia</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Foto</th>
+                  <th>Titulli</th>
+                  <th>Kategoria</th>
+                  <th>Stoku</th>
+                  <th>Cmimi</th>
+                  <th>Koment</th>
+                  <th id="artisanActionsHeader">Veprime</th>
+                </tr>
+              </thead>
+              <tbody id="artisanProductsBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section id="publicCatalogSection" class="panel section" hidden>
+          <h3>Katalogu i Krijimeve</h3>
+          <div id="publicCatalogGrid" class="showcase-groups"></div>
+        </section>
+
+        <section id="publicReviewsSection" class="panel section" hidden>
+          <h3>Vleresime nga Klientet</h3>
+          <div id="publicReviewsList" class="artisan-reviews-grid"></div>
+        </section>
+
+        <section id="ordersSection" class="panel section">
+          <h3>Porosite e Mia</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th>Klienti</th>
+                  <th>Sasi</th>
+                  <th>Statusi Porosise</th>
+                  <th>Pagesa</th>
+                </tr>
+              </thead>
+              <tbody id="artisanOrdersBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/artisan.js"></script>
+  </body>
+</html>
+
+
+
+
+
+

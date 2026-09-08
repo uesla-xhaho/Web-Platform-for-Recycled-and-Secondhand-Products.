@@ -1,0 +1,80 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regjistrohu | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page creator-entry-page register-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a href="./login.html">Hyr</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section creator-entry-layout">
+      <section class="creator-intro panel">
+        <h1 class="project-title">Bashkohu me ReArt</h1>
+        <p class="project-text">
+          Krijo llogari si bleres ose artizan dhe bej pjese ne ekonomine qarkulluese te platformes.
+        </p>
+      </section>
+
+      <section class="auth-card panel">
+        <h2>Regjistrohu</h2>
+        <form id="registerForm" class="form-grid">
+          <label>
+            Emri
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" required minlength="6" />
+          </label>
+          <label>
+            Roli
+            <select name="role" required>
+              <option value="customer">Customer</option>
+              <option value="artisan">Artizan / Shites</option>
+            </select>
+          </label>
+          <label>
+            Vendndodhja
+            <input type="text" name="location" />
+          </label>
+          <label>
+            Biografi
+            <textarea name="bio" rows="3"></textarea>
+          </label>
+          <button class="btn" type="submit">Krijo Llogari</button>
+        </form>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/auth.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+

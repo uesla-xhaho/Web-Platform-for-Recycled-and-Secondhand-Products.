@@ -1,0 +1,548 @@
+[
+  {
+    "_id": 21,
+    "title": "Canta tote",
+    "description": "E punuar me nje strukture te forte prej copash te ricikluara, kjo cante dallohet per nuancen e saj natyrale te tokes. Detaji qendror eshte nje brez i thurur me motive gjeometrike, i marre nga pjese te mbetura te kostumeve tradicionale.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Pambuk i ricikluar",
+      "Tekstil tradicional"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 4500,
+    "artisanName": "Tereze Gega",
+    "artisanLocation": "Lezhe",
+    "averageRating": 4.9,
+    "stock": 7,
+    "images": [
+      "./assets/images/t1.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-01T10:20:00.000Z"
+  },
+  {
+    "_id": 22,
+    "title": "Cante me motive tradicionale",
+    "description": "Kjo cante krahu eshte nje feste ngjyrash e krijuar nga fijet e mbetura te leshit dhe pambukut. Cdo fije e ricikluar eshte thurur me kujdes per te krijuar nje mozaik teksturash, me rrip te gershetuar dhe praktik per perdorim ditor.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Lesh i ricikluar",
+      "Pambuk i ricikluar"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 4200,
+    "artisanName": "Tereze Gega",
+    "artisanLocation": "Lezhe",
+    "averageRating": 4.8,
+    "stock": 5,
+    "images": [
+      "./assets/images/t2.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-02T09:10:00.000Z"
+  },
+  {
+    "_id": 23,
+    "title": "Canta me dizajn shiritash",
+    "description": "Nje shembull i qarte i upcycling, kjo cante perdor kombinimin e copave te forta te ricikluara me shirita shume-ngjyresh qe krijojne kontrast te forte vizual. Doreza e gjere ofron komoditet dhe perdorim te perditshem.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Tekstil i ricikluar",
+      "Shirita te endur"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 3000,
+    "artisanName": "Tereze Gega",
+    "artisanLocation": "Lezhe",
+    "averageRating": 4.7,
+    "stock": 6,
+    "images": [
+      "./assets/images/t3.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-03T11:40:00.000Z"
+  },
+  {
+    "_id": 24,
+    "title": "Jastëku Dekorativ \"Zadrima\"",
+    "description": "Ky jastek eshte krijuar nga bashkimi i copave te mbetura te mendafshit dhe pambukut te thurur ne tezgjah. Nuancat e ndezura krijojne ngrohtesi dhe karakter, duke sjelle artizanatin tradicional ne ambientet moderne te shtepise.",
+    "category": "upcycled",
+    "subcategory": "Dekor shtepie",
+    "materials": [
+      "Mendafsh i ricikluar",
+      "Pambuk i ricikluar"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 3900,
+    "artisanName": "Tereze Gega",
+    "artisanLocation": "Lezhe",
+    "averageRating": 4.9,
+    "stock": 2,
+    "images": [
+      "./assets/images/t4.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-04T14:05:00.000Z"
+  },
+  {
+    "_id": 25,
+    "title": "Çanta Etnike Moderne",
+    "description": "Kjo cante eshte nje kryeveper e riperdorimit te tekstilit. E krijuar nga pelhure pambuku te ricikluar dhe e zbukuruar me rruaza e xhufka shumengjyreshe, ajo bashkon traditen e Zadrimes me nje stil urban modern.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Pambuk i ricikluar",
+      "Rruaza",
+      "Elemente artizanale"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 3500,
+    "artisanName": "Tereze Gega",
+    "artisanLocation": "Lezhe",
+    "averageRating": 5,
+    "stock": 8,
+    "images": [
+      "./assets/images/0.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-05T12:15:00.000Z"
+  },
+  {
+    "_id": 26,
+    "title": "Eco-Lumina Ambazhur Upcycled",
+    "description": "Ky ambazhur nuk është thjesht një mjet ndriçimi, por një dëshmi e artit të qëndrueshëm që i jep përparësi mbrojtjes së mjedisit. Duke përdorur mbetjet e drurit dhe materialeve industriale, \"Eco-Lumina\" redukton gjurmën ekologjike pa sakrifikuar dizajnin luksoz. Ai krijon një atmosferë të ngrohtë dhe bashkëkohore në çdo ambient, duke shërbyer si një skulpturë ekologjike që tregon kujdesin tuaj për planetin. Zgjedhja e këtij produkti do të thotë të mbështesësh ekonominë qarkulluese dhe të sjellësh një shpirt unik, natyral, brenda shtëpisë tënde.",
+    "category": "upcycled",
+    "subcategory": "Ndricim",
+    "materials": [
+      "Dru i ricikluar",
+      "Materiale industriale te riperdorura",
+      "Elemente ndricimi"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 6900,
+    "artisanName": "Arben Spahiu",
+    "artisanLocation": "Gjirokaster",
+    "averageRating": 4.9,
+    "stock": 3,
+    "images": [
+      "./assets/images/druri.jpg",
+      "./assets/images/druri2.jpg",
+      "./assets/images/druri3.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T15:35:00.000Z"
+  },
+  {
+    "_id": 27,
+    "title": "Cante Dore Metalike Upcycled",
+    "description": "Kjo cante dore nuk eshte thjesht nje aksesor, por nje deklarate mjedisore. E krijuar nga qindra unaza alumini te ricikluara, ajo ofron nje shkelqim metalik unik qe terheq vemendjen. Eshte zgjedhja ideale per ata qe duan te kombinojne moden guximtare me ndergjegjen ekologjike, duke i dhene nje jete te dyte mbetjeve metalike ne formen me elegante te mundshme.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Unaza alumini te ricikluara",
+      "Elemente metalike"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 5200,
+    "artisanName": "Estefania",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.8,
+    "stock": 6,
+    "images": [
+      "./assets/images/metalike.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T14:00:00.000Z"
+  },
+  {
+    "_id": 28,
+    "title": "Cante Kovë me Unaza Alumini",
+    "description": "Cante me forme kove e realizuar me unaza alumini te ricikluara dhe thurje me dore, e pershtatshme per perdorim ditor me stil modern.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Unaza alumini te ricikluara",
+      "Fije tekstili"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 6800,
+    "artisanName": "Estefania",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.8,
+    "stock": 4,
+    "images": [
+      "./assets/images/artizan2.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T14:20:00.000Z"
+  },
+  {
+    "_id": 29,
+    "title": "Vathe Artizanale Turkeze",
+    "description": "Vathe me nuance turkeze dhe detaje metalike te ricikluara, te lehta per tu mbajtur dhe ideale per stil ditor ose evente.",
+    "category": "upcycled",
+    "subcategory": "Bizhuteri",
+    "materials": [
+      "Unaza metalike te ricikluara",
+      "Fije tekstili",
+      "Aksesore metalike"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 2400,
+    "artisanName": "Estefania",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.7,
+    "stock": 9,
+    "images": [
+      "./assets/images/artisan3.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T14:21:00.000Z"
+  },
+  {
+    "_id": 30,
+    "title": "Vathe Artizanale te Kuqe",
+    "description": "Vathe statement me ngjyre te kuqe te punuara me dore, te krijuara nga elemente te riperdorura per nje pamje unike dhe te guximshme.",
+    "category": "upcycled",
+    "subcategory": "Bizhuteri",
+    "materials": [
+      "Unaza metalike te ricikluara",
+      "Fije tekstili",
+      "Aksesore metalike"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 2400,
+    "artisanName": "Estefania",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.7,
+    "stock": 8,
+    "images": [
+      "./assets/images/artisan4.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T14:22:00.000Z"
+  },
+  {
+    "_id": 31,
+    "title": "Cante Etnike Clutch",
+    "description": "Cante dore elegante me motive tradicionale te Zadrimes, e punuar me tekstil te ricikluar dhe detaje artizanale. Ideale per evente dhe perdorim ne stil urban.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Tekstil i ricikluar",
+      "Qendisje artizanale"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 3900,
+    "artisanName": "Tereze Gega",
+    "artisanLocation": "Lezhe",
+    "averageRating": 4.8,
+    "stock": 6,
+    "images": [
+      "./assets/images/CANTE.png"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T15:05:00.000Z"
+  },
+  {
+    "_id": 32,
+    "title": "Koshe Dekorative nga Goma te Ricikluara",
+    "description": "Set koshash dekorative te punuara nga goma te perdorura, te transformuara ne produkte funksionale dhe estetike per ambientet e brendshme.",
+    "category": "upcycled",
+    "subcategory": "Dekor shtepie",
+    "materials": [
+      "Gome e ricikluar",
+      "Aksesore metalike"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 3500,
+    "artisanName": "Arben Spahiu",
+    "artisanLocation": "Gjirokaster",
+    "averageRating": 4.7,
+    "stock": 5,
+    "images": [
+      "./assets/images/goma.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T15:20:00.000Z"
+  },
+  {
+    "_id": 33,
+    "title": "Cante \"Half-Moon\" Crossbody",
+    "description": "Çantë \"Half-Moon\" Crossbody – E krijuar nga Xhins i Ricikluar. Kjo çantë unike në formë gjysmëhëne është realizuar me dorë duke përdorur xhins të vjetër, i cili mban një model të veçantë trëndafili të krijuar përmes zbardhjes (bleach art). Çdo detaj është menduar për të qenë sa praktik, aq edhe ekologjik. Karakteristikat Kryesore: Materiali: Xhins i ricikluar me teksturë unike dhe detaje të celura në formë trëndafili. Detajet: Zinxhirët dhe rripi janë në ngjyrë blu, duke krijuar një kontrast modern. Pjesa e brendshme: E veshur me pëlhurë pambuku në ngjyrë blu të hapur, me dy xhepa shtesë për organizim më të mirë. Origjina e materialeve: Zinxhirët janë \"dead-stock\" (nga mbetjet e një dyqani të mbyllur), ndërsa rripat janë pjesë të mbetura nga rrotullat e fabrikave. Dimensionet: Madhësia e çantës: Përafërsisht 32 cm e gjerë x 18 cm e lartë x 10 cm e thellë. Gjatësia e rripit: Zgjatet deri në rreth 1.25 m.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Xhins i ricikluar",
+      "Pelhure pambuku",
+      "Detaje metalike dead-stock"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 4800,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.8,
+    "stock": 7,
+    "images": [
+      "./assets/images/image.png"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T15:30:00.000Z"
+  },
+  {
+    "_id": 34,
+    "title": "Ambazhur Industrial Upcycled",
+    "description": "Prezantojme ambazhurin unik, nje krijim \"upcycled\" i punuar me dore nga nje fikese zjarri e dale jashte funksionit. Ky produkt mbart nje stil te paster industrial qe nuk kalon pa u vene re ne asnje ambient. Perdorimi i materialeve te rinisura jo vetem qe i jep cdo ambazhuri karakterin e vet unik, por gjithashtu mbeshtet mjedisin duke i dhene nje qellim te ri mbetjeve metalike. Nderthurja e dizajnit origjinal te fikeses me elementet moderne krijon nje pamje te forte dhe \"edgy\", e cila eshte e sigurt qe do te beje diferencen ne shtepine apo zyren tuaj.",
+    "category": "upcycled",
+    "subcategory": "Ndricim",
+    "materials": [
+      "Metal i ricikluar",
+      "Elemente elektrike",
+      "Tekstil"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 4000,
+    "artisanName": "Arben Spahiu",
+    "artisanLocation": "Gjirokaster",
+    "averageRating": 4.9,
+    "stock": 4,
+    "images": [
+      "./assets/images/llamba.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T16:00:00.000Z"
+  },
+  {
+    "_id": 35,
+    "title": "Set Aksesoresh nga Goma e Ricikluar",
+    "description": "Ky set unik aksesorësh, si mbajtëse lapsash, është i krijuar plotësisht përmes riciklimit të gomave të nxjerra nga përdorimi dhe copave të tekstilit me motive artistike, duke përfaqësuar një zgjidhje gjeniale për mbrojtjen e mjedisit. Materiali i gomës i jep produktit një qëndrueshmëri të jashtëzakonshme, rezistencë ndaj ujit dhe një teksturë moderne industriale, ndërsa zinxhirët me ngjyra të ndezura dhe brendësia me printe shtojnë një vlerë të lartë estetike. Rëndësia e këtij produkti qëndron në shndërrimin e mbetjeve të vështira për t'u dekompozuar në objekte funksionale dhe luksoze, duke u ofruar përdoruesve një alternativë etike që redukton gjurmën ekologjike pa sakrifikuar stilin apo cilësinë.",
+    "category": "upcycled",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Gome e ricikluar",
+      "Tekstil me motive artistike",
+      "Zinxhire dead-stock"
+    ],
+    "condition": "not_applicable",
+    "ecoImpact": "high",
+    "price": 2999,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.8,
+    "stock": 8,
+    "images": [
+      "./assets/images/jeans4.jpg",
+      "./assets/images/images.jpg",
+      "./assets/images/jeans3.jpg"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T16:20:00.000Z"
+  },
+  {
+    "_id": 36,
+    "title": "Bluze e trikotuar",
+    "description": "Kardigan second-hand i trikotuar me ngjyrë rozë, i butë dhe i përshtatshëm për përdorim të përditshëm. Produkt i ruajtur mirë, me detaje të punuara me dorë dhe përbërje 100% akrilik. Karakteristikat e Produktit: Madhësia: S (Small). Materiali: 100% akrilik (i butë dhe i ngrohtë). Dizajni: Mëngë 3/4 dhe mbyllje me kopsa unike me model \"gingham\". Mirëmbajtja: Sugjerohet pastrim kimik (dry clean). Gjendja e Produktit (E përdorur): Artikulli është i përdorur dhe paraqet disa shenja konsumi.",
+    "category": "second-hand",
+    "subcategory": "Veshje",
+    "materials": [
+      "Akrilik"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 2500,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.6,
+    "stock": 2,
+    "images": [
+      "./assets/images/baby (1).webp",
+      "./assets/images/baby1.webp",
+      "./assets/images/baby (2).webp"
+    ],
+    "featured": true,
+    "createdAt": "2026-02-18T16:35:00.000Z"
+  },
+  {
+    "_id": 37,
+    "title": "Sandale Beige Second-Hand",
+    "description": "Sandale DV Dolce Vita \"Bambi\". Këto sandale nga marka DV Dolce Vita janë gërshetimi i duhur midis stilit klasik dhe detajeve artizanale. Me një dizajn minimalist, por me karakter, ato janë perfekte për stinën e verës dhe vjeshtës, duke u përshtatur si me veshjet \"casual\" ashtu edhe me ato \"boho-chic\".\n\nKarakteristikat e Produktit:\nMadhësia: 10 (US).\nNgjyra: Kafe.\nMateriali: Lëkurë artificiale (Faux leather) cilësore.\nTaka: Takë e trashë (Block heel) me efekt druri, rreth 10 cm e lartë (4\"), e cila ofron qëndrueshmëri dhe rehati.\n\nGjendja e Produktit:\nShkëlqyer (E përdorur, por e paveshur): Sandalet janë në gjendje perfekte, të papërdorura më parë.",
+    "category": "second-hand",
+    "subcategory": "Kepuce",
+    "materials": [
+      "Lekure sintetike",
+      "Gome"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 3600,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.5,
+    "stock": 2,
+    "images": [
+      "./assets/images/kepuce2 (1).webp",
+      "./assets/images/kepuce2 (2).webp"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T16:45:00.000Z"
+  },
+  {
+    "_id": 38,
+    "title": "Kufje Wireless Premium me Case",
+    "description": "Kufje wireless second-hand ne gjendje shume te mire, me case mbrojtese dhe dizajn modern. Produkt i testuar dhe gati per perdorim te perditshem.",
+    "category": "second-hand",
+    "subcategory": "Elektronike",
+    "materials": [
+      "Alumin",
+      "Plastike",
+      "Sfungjer"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 9800,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.7,
+    "stock": 1,
+    "images": [
+      "./assets/images/m_wp_6995c946f59cc45b53e6b431.webp"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T16:55:00.000Z"
+  },
+  {
+    "_id": 39,
+    "title": "Dekor Dere Vjeshte \"Welcome Friends\"",
+    "description": "Dekor i perdorur per dere me motive vjeshte, me elemente kungulli, gjethe dhe fjongo dekorative. Ne gjendje shume te mire, ideal per hyrje shtepie.",
+    "category": "second-hand",
+    "subcategory": "Dekor shtepie",
+    "materials": [
+      "Tekstil",
+      "Plastike",
+      "Elemente dekorative"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 2600,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.6,
+    "stock": 1,
+    "images": [
+      "./assets/images/m_wp_69891357a95105793d0d8c1b.webp"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T17:05:00.000Z"
+  },
+  {
+    "_id": 40,
+    "title": "Cante Dore Vintage Monogram",
+    "description": "Cante dore second-hand me stil vintage, me motive monogram dhe detaje lekure ne ngjyre kafe. Praktike per perdorim te perditshem dhe evente.",
+    "category": "second-hand",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Kanavace",
+      "Lekure",
+      "Metal"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 5200,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.7,
+    "stock": 1,
+    "images": [
+      "./assets/images/m_wp_6995dea62326c8011b7be2d8.webp"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T17:15:00.000Z"
+  },
+  {
+    "_id": 41,
+    "title": "Byzylyk Elegant me Zinxhir",
+    "description": "Byzylyk second-hand ne ngjyre ari me zinxhir te holle dhe detaje delikate dekorative. Aksesori ideal per stil minimalist dhe elegant.",
+    "category": "second-hand",
+    "subcategory": "Bizhuteri",
+    "materials": [
+      "Metal",
+      "Kristal dekorativ"
+    ],
+    "condition": "good",
+    "ecoImpact": "low",
+    "price": 1900,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.6,
+    "stock": 1,
+    "images": [
+      "./assets/images/m_694acfc4b506f8c513c3af9b.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T17:20:00.000Z"
+  },
+  {
+    "_id": 42,
+    "title": "Portofol Roze Monogram",
+    "description": "Portofol second-hand ne ngjyre roze me dizajn monogram, kompakt dhe praktik per karta, para dhe dokumente te vogla.",
+    "category": "second-hand",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Lekure sintetike",
+      "Metal"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 2800,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.5,
+    "stock": 1,
+    "images": [
+      "./assets/images/m_6995de5a33d0ee75ea7c50ee.jpg"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T17:30:00.000Z"
+  },
+  {
+    "_id": 43,
+    "title": "Cante Laptopi Business",
+    "description": "Cante laptopi second-hand ne ngjyre gri/zeze me rrip krahu dhe doreze te siperme. Praktike per pune, udhetim dhe perdorim ditor.",
+    "category": "second-hand",
+    "subcategory": "Aksesore",
+    "materials": [
+      "Tekstil sintetik",
+      "Metal",
+      "Plastike"
+    ],
+    "condition": "good",
+    "ecoImpact": "medium",
+    "price": 3900,
+    "artisanName": "Mimoza Koxhaj",
+    "artisanLocation": "Tirane",
+    "averageRating": 4.6,
+    "stock": 1,
+    "images": [
+      "./assets/images/m_wp_67bcdc30693ff78718051b46.webp"
+    ],
+    "featured": false,
+    "createdAt": "2026-02-18T17:40:00.000Z"
+  }
+]

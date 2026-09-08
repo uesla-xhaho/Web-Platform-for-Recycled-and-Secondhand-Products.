@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hyr | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page creator-entry-page login-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a href="./register.html">Regjistrohu</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section creator-entry-layout">
+      <section class="creator-intro panel">
+        <h1 class="project-title">Bëhu pjesë e ReArt</h1>
+      </section>
+
+      <section class="auth-card panel">
+        <h2>Hyr</h2>
+        <form id="loginForm" class="form-grid">
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Password
+            <input type="password" name="password" required />
+          </label>
+          <button class="btn" type="submit">Hyr</button>
+        </form>
+        <p class="muted">Nuk ke llogari? <a href="./register.html">Regjistrohu</a></p>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/auth.js"></script>
+  </body>
+</html>
+
+
+
+
+
+

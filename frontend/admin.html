@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html lang="sq">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Panel | Re-Art</title>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="pdp-page">
+    <header class="topbar">
+      <div class="container nav">
+        <a class="brand brand-with-logo" href="./index.html">
+          <img class="brand-logo-image" src="./assets/images/re-art-logo.png" onerror="this.onerror=null;this.src='./assets/images/re-art-logo.svg';" alt="ReArt logo" />
+          <span class="brand-name">ReArt</span>
+        </a>
+        <nav class="nav-links">
+          <a href="./index.html">Faqja Kryesore</a>
+          <a href="./browse.html">Produkte</a>
+          <a class="active" href="./admin.html">Admin</a>
+          <a id="authLink" href="./login.html">Krijues të ReArt</a>
+          <a href="./cart.html">Shporta (<span id="cartCount">0</span>)</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container section project-structure project-structure-wide">
+      <aside class="project-side">
+        <p class="pdp-kicker">PLATFORM CONTROL</p>
+        <h1 class="project-title">Admin Panel</h1>
+        <p class="project-text">
+          Monitoro aplikimet e artizaneve, produktet e platformes dhe metrikat ne nje strukturim te
+          njejte me pjesen tjeter te projektit.
+        </p>
+        <p id="adminError" class="muted"></p>
+      </aside>
+
+      <section class="project-main">
+        <section id="adminMetrics" class="kpi-grid"></section>
+
+        <section class="panel section">
+          <h3>Artisan Applications</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Emri</th>
+                  <th>Email</th>
+                  <th>Vendndodhja</th>
+                  <th>Veprim</th>
+                </tr>
+              </thead>
+              <tbody id="pendingArtisansBody"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel section">
+          <h3>Moderimi i Produkteve</h3>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Produkti</th>
+                  <th>Artizani</th>
+                  <th>Featured</th>
+                  <th>Veprime</th>
+                </tr>
+              </thead>
+              <tbody id="adminProductsBody"></tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+
+    <script src="./assets/js/api.js"></script>
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/admin.js"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
